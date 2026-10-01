@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harsh Kumar - Full Stack Developer Resume</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      color: #1a202c;
+      background: #f7fafc;
+      padding: 40px 20px;
+    }
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 48px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      border-radius: 8px;
+    }
+    header {
+      border-bottom: 2px solid #2b6cb0;
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: #1a202c;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #2b6cb0;
+      margin-top: 4px;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      margin-top: 10px;
+      font-size: 13.5px;
+      color: #4a5568;
+    }
+    .contact-info a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+    section {
+      margin-bottom: 22px;
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #2b6cb0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+    }
+    .item {
+      margin-bottom: 14px;
+    }
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 600;
+      font-size: 14.5px;
+      color: #2d3748;
+    }
+    .item-sub {
+      font-size: 13.5px;
+      color: #4a5568;
+      font-style: italic;
+      margin-bottom: 6px;
+    }
+    .item-date {
+      font-size: 13px;
+      font-weight: 500;
+      color: #718096;
+    }
+    ul {
+      margin-left: 18px;
+      font-size: 13.5px;
+      color: #4a5568;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      row-gap: 6px;
+      font-size: 13.5px;
+    }
+    .skill-cat {
+      font-weight: 600;
+      color: #2d3748;
+    }
+    .skill-list {
+      color: #4a5568;
+    }
+    .actions {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .btn-print {
+      background: #2b6cb0;
+      color: white;
+      border: none;
+      padding: 10px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    @media print {
+      body { background: white; padding: 0; }
+      .resume-container { box-shadow: none; padding: 0; }
+      .actions { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="actions">
+    <button class="btn-print" onclick="window.print()">Print or Save as PDF</button>
+  </div>
+  <div class="resume-container">
+    <header>
+      <h1>Harsh Kumar</h1>
+      <div class="title">Full Stack Developer</div>
+      <div class="contact-info">
+        <span>📍 Noida, Uttar Pradesh, India</span>
+        <span>📞 +91-7543810314</span>
+        <span>✉️ <a href="mailto:harshsingh7543810314@gmail.com">harshsingh7543810314@gmail.com</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p style="font-size: 13.5px; color: #4a5568;">
+        Full Stack Developer with hands-on experience building responsive web applications, RESTful APIs, and modern user interfaces through academic projects, internships, and professional training. Skilled in React.js, Python, Django, REST APIs, MySQL, and modern JavaScript.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-cat">Languages:</div>
+        <div class="skill-list">Python, JavaScript ES6+, HTML5, CSS3, SQL</div>
+        
+        <div class="skill-cat">Frontend:</div>
+        <div class="skill-list">React.js, HTML5, CSS3, JavaScript, Responsive Web Design</div>
+        
+        <div class="skill-cat">Backend:</div>
+        <div class="skill-list">Python, Django, REST APIs</div>
+        
+        <div class="skill-cat">Database:</div>
+        <div class="skill-list">MySQL</div>
+        
+        <div class="skill-cat">Tools & Platforms:</div>
+        <div class="skill-list">Git, GitHub, VS Code</div>
+        
+        <div class="skill-cat">Core CS:</div>
+        <div class="skill-list">Data Structures & Algorithms, Object-Oriented Programming, DBMS</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>DUCCAT INDIA — Noida, India</span>
+          <span class="item-date">Sep 2025 – Apr 2026</span>
+        </div>
+        <div class="item-sub">Full Stack Developer Intern</div>
+        <ul>
+          <li>Completed hands-on training in Full Stack Web Development with a primary focus on React.js, Python, Django, JavaScript, HTML, CSS, and MySQL.</li>
+          <li>Developed responsive and user-friendly web applications using reusable React components and modern frontend development practices.</li>
+          <li>Built RESTful APIs and backend functionalities using Django.</li>
+          <li>Worked with MySQL for database design, CRUD operations, and data management.</li>
+          <li>Gained practical experience in debugging, Git, version control and end-to-end application development.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>News App</span>
+          <span class="item-date">React.js, JavaScript, HTML5, CSS3, News API</span>
+        </div>
+        <ul>
+          <li>Developed a responsive news application using React.js that fetches and displays real-time news articles from a public News API.</li>
+          <li>Implemented real-time news fetching, REST API integration, and category-based filtering.</li>
+          <li>Engineered reusable React components with robust state management and mobile-friendly responsive UI.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <span>E-Commerce Website</span>
+          <span class="item-date">HTML5, CSS3, JavaScript</span>
+        </div>
+        <ul>
+          <li>Developed a responsive e-commerce website using HTML, CSS, and JavaScript with a clean and user-friendly interface.</li>
+          <li>Implemented product search, product filtering, shopping cart functionality, DOM manipulation, and interactive event handling.</li>
+          <li>Optimized performance and layout responsiveness for both desktop and mobile devices.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Training</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>AccioJob</span>
+          <span class="item-date">Dec 2024 – Oct 2025</span>
+        </div>
+        <div class="item-sub">MERN Stack Developer Program</div>
+        <ul>
+          <li>Built and deployed 3+ full-stack MERN applications with REST API development and JWT authentication.</li>
+          <li>Worked with responsive UI, state management, backend architecture, and MongoDB Atlas.</li>
+          <li>Deployed full-stack applications using Vercel and Render with optimized frontend delivery.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Panipat Institute of Engineering and Technology</span>
+          <span class="item-date">2021 – 2025</span>
+        </div>
+        <div class="item-sub">Bachelor of Technology — Computer Science and Engineering</div>
+        <div style="font-size: 13.5px; color: #4a5568;">CGPA: <strong>6.5 / 10</strong></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications & Achievements</h2>
+      <ul>
+        <li><strong>AI Skills Passport</strong> — EY & Microsoft</li>
+        <li><strong>Full Stack Developer Certification</strong> — DUCCAT INDIA</li>
+        <li><strong>SIH Hackathon Participant</strong></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
